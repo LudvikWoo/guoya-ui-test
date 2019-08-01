@@ -9,3 +9,5 @@ dirs:
 files:
   - .gitignore
   - run.py
+  - init_ui_project.yaml
+  - README.md
