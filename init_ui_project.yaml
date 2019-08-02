@@ -5,7 +5,7 @@ dirs:
   - logs
   - reports
   - test_case
-  - tools
+  - tools/ui
 files:
   - .gitignore
   - run.py

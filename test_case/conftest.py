@@ -4,7 +4,7 @@
 import pytest
 import os
 from selenium import webdriver
-from tools.base_ui import BaseUI
+from tools.ui.base_ui import BaseUI
 
 @pytest.fixture(scope='session')
 def base_ui():
