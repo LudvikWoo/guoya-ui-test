@@ -8,7 +8,7 @@ from tools.ui.base_ui import BaseUI
 
 @pytest.fixture(scope='session')
 def base_ui():
-    driver_path = os.path.join(os.path.dirname(__file__), "../chrome_driver/chromedriver.exe")
+    driver_path = os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir)).replace('\\', '/')+ "/chrome_driver/chromedriver.exe"
     driver = webdriver.Chrome(driver_path)
     driver.maximize_window()  # 最大化浏览器
     driver.implicitly_wait(8)  # 设置隐式时间等待
