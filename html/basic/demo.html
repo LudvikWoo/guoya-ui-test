@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>常见元素</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th>测试点</th>
+            <th>元素</th>
+        </tr>
+        <tr>
+            <td>文本框</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>密码框</td>
+            <td><input type="password"></td>
+        </tr>
+        <tr>
+            <td>文本域</td>
+            <td><textarea></textarea></td>
+        </tr>
+        <tr>
+            <td>单选框</td>
+            <td>
+                <input type="radio" name="sex"> 男
+                <input type="radio" name="sex"> 女
+            </td>
+        </tr>
+        <tr>
+            <td>多选框</td>
+            <td>
+                <input type="checkbox" name="phone" value="huawei">华为
+                <input type="checkbox" name="phone" value="xiaomi">小米
+                <input type="checkbox" name="phone" value="apple">苹果
+
+            </td>
+        </tr>
+        <tr>
+            <td>按钮</td>
+            <td><input type="button" value="确认" onclick="confirm('确认提交吗？')"></td>
+        </tr>
+        <tr>
+            <td>下拉框</td>
+            <td>
+                <select id="course">
+                    <option value="">--请选择--</option>
+                    <option value="basic-test">测试基础班</option>
+                    <option value="auto-test">自动化测试班</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>超链接</td>
+            <td>
+                <a href="http://www.baidu.com">百度</a>
+            </td>
+        </tr>
+        <tr>
+            <td>日期</td>
+            <td>
+                <input type="date" name="start_date">
+            </td>
+        </tr>
+        <tr>
+            <td>时间</td>
+            <td>
+                <input type="time" name="start_time">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
